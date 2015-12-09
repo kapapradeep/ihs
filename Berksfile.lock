@@ -1,0 +1,33 @@
+DEPENDENCIES
+  apt
+  ihs
+    path: .
+    metadata: true
+  iim
+    git: https://github.com/WASdev/ci.chef.iim.git
+    revision: c6a32e09f9b5716aa8f671566743550357472ce4
+  java
+  minitest-handler
+  robin_test
+    path: test/cookbooks/robin_test
+  wlp
+    git: https://github.com/WASdev/ci.chef.wlp.git
+    revision: c642fefc010bafa688b3dad84e435de3d8744c75
+
+GRAPH
+  apt (2.9.2)
+  chef_handler (1.2.0)
+  ihs (0.1.0)
+    iim (>= 0.4.0)
+  iim (0.4.0)
+  java (1.36.0)
+    apt (>= 0.0.0)
+  minitest-handler (1.5.0)
+    chef_handler (>= 0.0.0)
+  robin_test (0.1.0)
+    apt (>= 0.0.0)
+    ihs (>= 0.0.0)
+    java (>= 0.0.0)
+    wlp (>= 0.0.0)
+  wlp (0.3.1)
+    java (>= 1.16.4)
