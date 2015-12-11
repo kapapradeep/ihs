@@ -14,7 +14,7 @@ default[:ihs][:settings][:port] = "2000"
 default[:ihs][:install][":bits"] = ""
 
 #<> The location of the repository to download IHS from, this attribute is REQUIRED
-default[:ihs][:install][:repositoryLocation] = "/home/ms66518/IHS/repo/repository.config"
+default[:ihs][:install][:repositoryLocation] = "/apps/IHS/repo/repository.config"
 #<> The location of the master password file IIM should use to access the secure storage file, this attribute is optional
 default[:ihs][:install][:masterPasswordFile] = nil 
 #<> The location of the secure storage file IIM should use to access the repoistory, this attribute is optional
